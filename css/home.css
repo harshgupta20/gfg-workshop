@@ -5,6 +5,8 @@
     /* background-color: blueviolet; */
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    background-image: url("../img/bkgd.png");
+    background-repeat: repeat;
 }
 
 div#first-page{
@@ -106,7 +108,7 @@ h1.home-tech {
 
 /*---------------------- ABOUT ---------------*/
 div#about{
-    height: 100vh;
+    /* height: 100vh; */
 }
 div h1.ab-head{
     text-align: center;
@@ -158,7 +160,7 @@ div.ab-body{
 
 /*--------------------- SKILLS --------------------*/
 #skills{
-    height: 100vh;
+    /* height: 100vh; */
 
 }
 .sk-head{
@@ -193,14 +195,14 @@ div.ab-body{
 
 @media only screen and (max-width:1060px){
     .sk-head{
-        margin-top: 380px;
+        margin-top: 100px;
     }
 }
 
 
 /*---------------------- WORKS ----------------------------*/
 #work{
-    height: 100vh;
+    /* height: 100vh; */
 }
 .wk-head{
     text-align: center;
@@ -228,14 +230,14 @@ div.ab-body{
 
 @media only screen and (max-width: 740px){
     .wk-head{
-        margin-top: 700px;
+        margin-top: 150px;
     }
 }
 
 
 /*---------------- Expirence -----------------*/
 #xp{
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 20px;
 }
 .xp-head{
@@ -274,7 +276,7 @@ div.ab-body{
 }
 @media only screen and (max-width: 680px){
     #xp{
-        margin-top: 1200px;
+        margin-top: 100px;
     }
     .xp-card{
         flex-direction: column;
@@ -298,8 +300,8 @@ div.ab-body{
 
 /*--------------------- Contact --------------------*/
 #con{
-    height: 100vh;
-    margin-top: 200px;
+    /* height: 100vh; */
+    margin-top: 50px;
 }
 .con-head{
     text-align: center;
@@ -309,7 +311,8 @@ div.ab-body{
 }
 .con-body{
     text-align: center;
-    /* padding: 100px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 input{
     padding: 10px;
@@ -337,6 +340,6 @@ button:hover{
 
 @media only screen and (max-width: 680px){
     #con{
-        margin-top: 550px;
+        margin-top: 100px;
     }
 }
