@@ -14,10 +14,11 @@ div#first-page{
 }
 nav{
     /* border: 3px solid red; */
+    padding: 10px;
 }
 nav img{
     width: 50px;
-    margin: 20px;
+    margin: 10px 20px 10px 20px;
 }
 nav ul{
     /* display: block; */
@@ -33,6 +34,13 @@ nav ul li{
     padding-right: 40px;
     font-size: 20px;
     font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #4070F4;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #4070F4;
 }
 .toggleButton{
     float: right;
@@ -50,13 +58,13 @@ nav ul li{
         width: 90%;
         height: 100%;
         background-color: white;
-        top: 100px;
+        top: 70px;
         text-align: center;
     }
     nav ul li{
         display: block;
         font-size: 35px;
-        margin-top: 10px;
+        margin-top: 25px;
     }
  
     .toggleButton{
@@ -109,6 +117,7 @@ h1.home-tech {
 /*---------------------- ABOUT ---------------*/
 div#about{
     /* height: 100vh; */
+    margin-top: 100px;
 }
 div h1.ab-head{
     text-align: center;
@@ -152,7 +161,7 @@ div.ab-body{
     .ab-para{
         padding-top: 70px;
         margin: auto;
-        width: 60%;
+        width: 80%;
         line-height: 1.4;
     }
 }
@@ -245,12 +254,14 @@ div.ab-body{
     font-size: 60px;
     padding-top: 30px;
     color: #4070F4;
+    /* border: 2px solid black; */
 }
 
 .xp-body{
     width: 70%;
     /* border: 5px solid red; */
     margin: 20px auto auto auto;
+    /* border: 2px solid red; */
 }
 .xp-card{
     display: flex;
@@ -260,6 +271,7 @@ div.ab-body{
     margin-top: 20px;
     padding: 10px;
     border-radius: 20px;
+    /* border: 2px solid green; */
 }
 .xp-pic{
     width: 250px;
@@ -280,10 +292,12 @@ div.ab-body{
     }
     .xp-card{
         flex-direction: column;
+        padding: 0;
     }
     .xp-pic{
-        width: 300px;
+        width: 200px;
         /* height: 200px; */
+        margin: auto;
     }
     .xp-text{
         display: none;
@@ -291,8 +305,9 @@ div.ab-body{
     .xp-text1{
         display: block;
         font-weight: bold;
-        margin: 10px auto auto auto;
-        font-size: 22px;
+        font-size: 18px;
+        margin: auto;
+        margin-top: 5px;
 
     }
 }
